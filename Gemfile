@@ -7,9 +7,10 @@ gem 'rails', '~> 5.2.3'
 gem 'sqlite3'
 gem 'puma', '~> 3.11'
 gem 'jquery-rails'
-gem 'bootstrap-sass'
-gem 'sass-rails'
 gem 'sassc-rails', '>= 2.1.0'
+gem 'bootstrap-sass', '~> 3.4.1'
+
+gem 'sass-rails', '~> 5.0', '>= 5.0.7'
 gem 'uglifier', '>= 1.3.0'
 
 # See https://github.com/rails/execjs#readme for more supported runtimes
