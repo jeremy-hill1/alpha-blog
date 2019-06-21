@@ -2,7 +2,12 @@ $navbar-default-bg: #1126A7;
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
-
+.navbar-default .navbar-nav > li > a {
+  color: #d7e2e9;
+}
+.navbar-default .navbar-nav > li > a:hover {
+  color: #A8AEFF;
+}
 #logo {
   float: left;
   font-size: 1.7em;
@@ -13,7 +18,7 @@ $navbar-default-bg: #1126A7;
 }
 
 #logo:hover {
-  color: #fff;
+  color: #A8AEFF;
   text-decoration: none;
 }
 
@@ -22,7 +27,7 @@ $navbar-default-bg: #1126A7;
 }
 
 .jumbotron {
-  background-image: asset-url('celestial.jpg');
+  background-image: asset-url('blue4.jpg');
   background-size: cover;
   height: 550px;
 }
