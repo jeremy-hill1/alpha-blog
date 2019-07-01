@@ -10,7 +10,8 @@ gem 'sassc-rails', '>= 2.1.0'
 gem 'bootstrap-sass', '~> 3.4.1'
 
 gem 'bcrypt', '~> 3.1.7'
-
+gem 'will_paginate', '3.1.7'
+gem 'bootstrap-will_paginate', '1.0.0'
 gem 'sass-rails', '~> 5.0', '>= 5.0.7'
 gem 'uglifier', '>= 1.3.0'
 
