@@ -10,6 +10,10 @@ Rails.application.routes.draw do
   #post 'users', to: 'users#create'
   # Another way to add signup pat
   resources :users, except: [:new]
+  get 'login', to: 'sessions#new'
+  post 'login', to: 'sessions#create'
+  delete 'logout', to: 'sessions#destroy'
+
   # We make exception for ":new" because
     # we have a 'new' path already set up for articles
 
