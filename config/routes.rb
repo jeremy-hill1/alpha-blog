@@ -14,6 +14,7 @@ Rails.application.routes.draw do
   post 'login', to: 'sessions#create'
   delete 'logout', to: 'sessions#destroy'
 
+  resources :categories, except: [:destroy]
   # We make exception for ":new" because
     # we have a 'new' path already set up for articles
 
