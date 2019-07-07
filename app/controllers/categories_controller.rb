@@ -26,12 +26,10 @@ class CategoriesController < ApplicationController
     @cagegory = Category.find(params[:id])
     if @category.update(category_params)
       flash[:success] = "Name was successfully updated"
-      redirect_to category_path(@category)  
+      redirect_to category_path(@category)
     else
       render 'edit'
     end
-  end
-
   end
 
   def show
